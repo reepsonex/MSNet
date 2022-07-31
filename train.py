@@ -45,5 +45,5 @@ def train_net(net, device, data_path, test_path, epochs, batch_size, lr):
         scheduler.step()
 
     torch.save(net.state_dict(), 'module.pth')
-
+# Other codes will be uploaded after being sorted
 
